@@ -18,6 +18,7 @@ public class BookTest {
 		assertEquals("Fantasy",b.getGenre());
 	}
 	
+	@SuppressWarnings("deprecation")
 	@Test
 	public void AddBookTest() throws BookException{
 		Catalog cat = pkgLibrary.Book.ReadXMLFile();
