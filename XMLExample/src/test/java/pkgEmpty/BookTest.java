@@ -14,17 +14,16 @@ public class BookTest {
 
 	@Test
 	public void GetBookTest() throws BookException {
-		Book b = new Book("bk104");
+		Book b = new Book("bk103");
 		assertEquals("Fantasy",b.getGenre());
 	}
 	
-	@SuppressWarnings("deprecation")
 	@Test
 	public void AddBookTest() throws BookException{
 		Catalog cat = pkgLibrary.Book.ReadXMLFile();
-		cat.AddBook(new Book("bk120","author","title","genre", 42.0, new Date(2012,9,15),
+		cat.AddBook(new Book("bk119","author","title","genre", 42.0, new Date(2012,9,15),
 			"description", 22.10));
-		Book b = new Book("bk120");
+		Book b = new Book("bk119");
 		assertEquals("description",b.getDescription());
 		
 	}

@@ -151,4 +151,31 @@
         <publish_date>3912-10-15T00:00:00-04:00</publish_date>
         <title>title</title>
     </book>
+    <book id="bk123">
+        <author>author</author>
+        <cost>22.1</cost>
+        <description>description</description>
+        <genre>genre</genre>
+        <price>42.0</price>
+        <publish_date>3912-10-15T00:00:00-04:00</publish_date>
+        <title>title</title>
+    </book>
+    <book id="bk121">
+        <author>author</author>
+        <cost>22.1</cost>
+        <description>description</description>
+        <genre>genre</genre>
+        <price>42.0</price>
+        <publish_date>3912-10-15T00:00:00-04:00</publish_date>
+        <title>title</title>
+    </book>
+    <book id="bk119">
+        <author>author</author>
+        <cost>22.1</cost>
+        <description>description</description>
+        <genre>genre</genre>
+        <price>42.0</price>
+        <publish_date>3912-10-15T00:00:00-04:00</publish_date>
+        <title>title</title>
+    </book>
 </catalog>
