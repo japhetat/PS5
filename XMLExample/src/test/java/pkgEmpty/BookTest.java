@@ -21,9 +21,9 @@ public class BookTest {
 	@Test
 	public void AddBookTest() throws BookException{
 		Catalog cat = pkgLibrary.Book.ReadXMLFile();
-		cat.AddBook(new Book("bk119","author","title","genre", 42.0, new Date(2012,9,15),
+		cat.AddBook(new Book("bk113","author", "title","genre", 50.0, new Date(2012,9,15),
 			"description", 22.10));
-		Book b = new Book("bk119");
+		Book b = new Book("bk113");
 		assertEquals("description",b.getDescription());
 		
 	}
